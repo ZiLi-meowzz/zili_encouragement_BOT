@@ -17,27 +17,27 @@ while True:
       counter += 1
     if each_word == "happy":
       feelings_list.append("happy")
-      encouragement_list.append("to keep it up! you're AWSOME dude")
+      encouragement_list.append("i am so proud of you!! don't forget to keep it up! you're AWSOME dude")
       counter += 1
     if each_word == "tired":
       feelings_list.append("tired")
-      encouragement_list.append("i think it's time to get some rest")
+      encouragement_list.append("it's time to get some rest")
       counter += 1
     if each_word == "angry":
       feelings_list.append("angry")
-      encouragement_list.append("why so angry? calm down dude(if you haven't) try to talk to someone...")
+      encouragement_list.append("you have to calm down dude(if you haven't) and try to talk to someone... maybe they can help ot solve whatever that is making you feel angry now")
       counter += 1
-    if each_word == "afraid":
-      feelings_list.append("afraid")
-      encouragement_list.append("we are all in this together :) find someone to talk about what are you afraid of")
+    if each_word == "stressed":
+      feelings_list.append("stressed")
+      encouragement_list.append("we are all in this together :) find someone to talk about what are you stressed of")
       counter += 1
     if each_word == "depressed":
       feelings_list.append("depressed")
-      encouragement_list.append("there is still HOPE, even when your brain tells you there isn't")
+      encouragement_list.append("there is still HOPE, even when your brain cells tells you there isn't")
       counter += 1
     if each_word == "lonely":
       feelings_list.append("lonely")
-      encouragement_list.append("you can try to make friends or just try to occupy your time with doing things that you have not explored")
+      encouragement_list.append("you can try to make new friends or or find someone to play with or just try to occupy your time with doing things that you have not explored")
       counter += 1
     if each_word == "confident":
       feelings_list.append("confident")
@@ -45,16 +45,13 @@ while True:
       counter += 1    
     if each_word == "relieved":
       feelings_list.append("relieved")
-      encouragement_list.append("")
+      encouragement_list.append("whatever that is making you feel relieved makes me feel the same too")
       counter += 1    
-    if each_word == "":
-      feelings_list.append("")
-      encouragement_list.append("")
+    if each_word == "confused":
+      feelings_list.append("confused")
+      encouragement_list.append("you can try to take a deep breath and move forward with a clear mind once again, hope this helps and")
       counter += 1    
-    if each_word == "":
-      feelings_list.append("")
-      encouragement_list.append("")
-      counter += 1
+
   if counter == 0:
     
       output = "Sorry I don't really understand. Please use different and simpler words?"
